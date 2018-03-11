@@ -1,0 +1,197 @@
+
+/* 
+	mobile device section 
+
+*/
+@media screen and (max-width: 610px) {
+ .home_page{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.name_profile{
+	position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.my_name{
+	
+	font-size: 1.3em;
+	font-family: 'Orbitron', sans-serif;
+}
+.profile{
+	font-size: 1.1em;
+}
+
+.resume_page{
+	width: 100%;
+	height: auto;
+	color: #fff;
+	
+}
+.resume_content{
+	padding: 20px;
+	margin: 0;
+	width:100%;
+}
+.btn-resume{
+	padding: 20px;
+	margin: 0;
+	width:100%;
+}
+footer{
+	width: 100%;
+	height: 45px;
+	padding:0;
+	text-align: center;
+}
+
+.socialMedia-icons{
+	list-style-type: none;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom:14px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40px;
+	width: 42%;
+}           
+
+ 
+.socialMedia-icons li a{
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	margin: 2px;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border: 1px solid silver;
+	font-size: 12px;
+	border-radius: 40%;
+	padding: 4px;
+} 
+.licience{
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+	font-size: 10px;
+}
+}
+
+
+/* 
+	ipad decive version 
+
+*/
+@media screen and (min-width: 768px) {
+ .home_page{
+	width: 100%;
+	height: 75vh; 
+	position: relative;
+}
+
+.name_profile{
+	position: absolute;
+    left: 0;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+.about_page{
+	width: 100%;
+	height: auto;
+	margin-top: 2%;
+	padding: 0;
+	background-color:#292727;
+
+	
+}
+.my_picture{
+	width: 100%;
+	height: 310px;
+}
+
+.resume_page{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.resume_content{
+	background-color: #0a7785;
+	padding: 20px;
+}
+.btn-resume{
+	background-color: #0a7785;
+	padding: 36px;
+}
+
+footer{
+	width: 100%;
+	height: 45px;
+	margin: 0;
+	background-color: #0e1726;
+}
+
+  
+}
+
+/* 
+	labtop- large device section
+	
+*/
+
+@media screen and (min-width: 850px) {
+  .home_page{
+	width: 100%;
+	height: 60vh;
+	position: relative;
+}
+
+.name_profile{
+	position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.about_page{
+	width: 83%;
+	height: auto;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	background-color:#292727;
+
+	
+}
+.resume_page{
+	width: 85%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	color: #fff;
+}
+footer{
+	width: 85%;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+}

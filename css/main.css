@@ -1,0 +1,338 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Antic Slab', serif;
+  font-size: 12px;
+  color: #424242;
+  overflow-x:hidden;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0; 
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*
+ *
+ * Common
+ * 
+ */
+   
+.home_page{
+	width: 100%;
+	height: 60vh;
+	background-image: url("../img/web1.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover; 
+	position: relative;
+}
+
+.name_profile{
+	position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.navbar{
+   padding-top: 5px;
+   padding-bottom: 5px;
+}
+.nav-link{
+	font-size:16px;
+	color: #fff !important;
+}
+
+.nav-link:hover{
+	
+	background-color:#91f1fd;
+	color: #424242 !important;
+}
+
+.my_name{
+	
+	font-size: 2.5em;
+	font-family: 'Orbitron', sans-serif;
+}
+.profile{
+	font-size: 1.5em;
+}
+.menu_header{
+	padding: 16px;
+	font-weight: bold;
+}
+
+/*
+	service section
+	
+*/
+.service_page{
+	border-bottom: 1px solid silver;
+}
+.service_type{
+	padding:10px;
+	font-weight: bold;
+}
+.service-img{
+	box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+	border-radius: 20%;
+}
+/* 
+	about section
+
+	
+*/
+.about_page{
+	width: 83%;
+	height: auto;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+    
+	
+}
+
+
+.about_content{
+	
+	background-color: #0a7785;
+	padding: 20px;
+	margin: 0;
+	color: #fff;
+	overflow: hidden;
+}
+.about_img_content{
+	background-color: #fff;
+	border: 1px solid silver;
+}
+.my_picture{
+	width: 700px;
+	height: 267px;
+	min-height: 100%;
+	
+}
+
+
+.about-text{
+	font-size:13px;
+}
+ul.a {
+	  font-weight: bold;
+	  color: #55dff0;
+}
+/*
+	portfolio section
+	
+*/
+.portfolio_page{
+	padding: 0;
+	margin: 0;
+
+}
+
+.project-image-background{
+	padding: 10px;
+	margin: 0;
+
+}
+.project-image{
+	
+}
+/* css image effect starts from here*/
+.image-box {
+    position: relative;
+    overflow: hidden;
+	
+}
+
+.image-box img {
+    width: 100%;
+	height:220px;
+    transition: .5s
+
+}
+
+.text-box {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 52, 68, 0.5);
+    transition: 0.5s
+}
+
+.text-box h3 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    color: #FFF;
+    font-family: arial;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.text-box p {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 100%;
+    color: #FFF;
+    font-family: arial;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+
+
+.image-box:hover .text-box {
+    left: 0%;
+}
+
+.image-box:hover img {
+    transform: scale(1.2)
+}
+#btn-showMore{
+	margin-bottom:2%;
+}
+
+/*
+	
+	resume section
+
+*/
+
+.resume_page{
+	width: 85%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fff;
+}
+
+.resume_content{
+	padding: 20px;
+	margin: 0;
+	background-color: #0a7785;
+	font-family: 'Antic Slab', serif;
+}
+.btn-resume{
+	padding:36px;
+	margin: 0;
+	background-color: #0a7785;
+}
+
+/*
+	
+	contact section
+	
+*/
+
+.contact_page{
+	width: 85%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.contact_address{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Antic Slab', serif;
+}
+
+/* 
+	
+	footer section
+	
+*/
+footer{
+	width: 85%;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.socialmedia-content{
+	background-color: #0a7785;
+	padding: 5px;
+	margin: 0;
+
+}
+.copyright-content{
+	background-color: #0a7785;
+	padding:5px;
+	margin: 0;
+	
+}
+
+.socialMedia-icons{
+	list-style-type: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom:14px;
+	margin: 0;
+	height: 40px;
+	width: 50%;
+}           
+
+.socialMedia-icons li a{
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	margin: 4px;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border: 2px solid silver;
+	font-size: 12px;
+	border-radius: 40%;
+	padding: 5px;
+} 
+.socialMedia-icons li a:hover{
+	background-color:white;
+	
+}
+
+
+.licience{
+	color: #fff;
+	padding-top: 10px;
+	padding-right: 16px;
+}
+
+
+
+
+
+
+
+
+
+
